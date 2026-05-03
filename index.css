@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-cream: #EBE1C6;
+    --color-lavender: #8E88A3;
+    --color-rose: #C496A1;
+    --color-bronze: #81785A;
+    --color-sage: #919D85;
+    --font-heading: 'Fraunces', serif;
+    --font-body: 'Nunito', sans-serif;
+    --font-script: 'Dancing Script', cursive;
+}
+body {
+  font-family: var(--font-body);
+  
+}
+* {
+  font-family: var(--font-body);
+}
+
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
